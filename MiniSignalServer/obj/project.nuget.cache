@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qNOSbm1CmuLfdza8ytLbAN1NKmFm+s+5XDw4xwyi5Sv5/3A6+xR7Ch22H6Sunt9e7JwoAUl6PlqS+ZDvXI8LOQ==",
+  "dgSpecHash": "JrAY5HnvMTs78s3JDYD4t16WtFi1dIetzp1nt7CFKHDV0tp24RKM0ymqjKgtGPMkGiMzQEyAqaHCU6FZtEo5Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joao\\OneDrive\\Área de Trabalho\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
+  "projectFilePath": "c:\\Users\\Joao\\OneDrive\\Área de Trabalho\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
