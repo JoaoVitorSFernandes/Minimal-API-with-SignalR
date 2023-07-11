@@ -16,7 +16,10 @@ class MyHub : Hub
         CancellationToken cancellationToken
     )
     {
-        yield return DateTime.Now;
-        await Task.Delay(100, cancellationToken);
+        while (true)
+        {
+            yield return DateTime.UtcNow;
+            await Task.Delay(1000, cancellationToken);
+        }
     }
 }

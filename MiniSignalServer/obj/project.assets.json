@@ -8,34 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Joao\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Seidor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joao\\OneDrive\\Área de Trabalho\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
+      "projectUniqueName": "c:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
       "projectName": "MiniSignalServer",
-      "projectPath": "C:\\Users\\Joao\\OneDrive\\Área de Trabalho\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
-      "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joao\\OneDrive\\Área de Trabalho\\Minimal-API-with-SignalR\\MiniSignalServer\\obj\\",
+      "projectPath": "c:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
+      "packagesPath": "C:\\Users\\Seidor\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Seidor\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },

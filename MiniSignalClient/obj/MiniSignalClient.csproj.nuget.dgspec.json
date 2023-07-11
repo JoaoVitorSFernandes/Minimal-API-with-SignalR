@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj": {}
+    "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalClient\\MiniSignalClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj": {
+    "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalClient\\MiniSignalClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
-        "projectName": "MiniSignalServer",
-        "projectPath": "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\MiniSignalServer.csproj",
+        "projectUniqueName": "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalClient\\MiniSignalClient.csproj",
+        "projectName": "MiniSignalClient",
+        "projectPath": "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalClient\\MiniSignalClient.csproj",
         "packagesPath": "C:\\Users\\Seidor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalServer\\obj\\",
+        "outputPath": "C:\\Users\\Seidor\\Desktop\\Minimal-API-with-SignalR\\MiniSignalClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Seidor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,9 +55,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
